@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-boilerplate",
+  "version": "1.0.0",
+  "description": "Node.JS boilerplate project",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test-unit": "jest --detectOpenHandles tests/unit",
+    "test-integration": "jest --detectOpenHandles tests/integration",
+    "eslint": "eslint ."
+  },
+  "engines": {
+    "node": "12.14.0",
+    "npm": "6.13.4"
+  },
+  "keywords": [],
+  "author": "mirpo <7105861+mirpo@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-streamr-nodejs": "^1.1.0",
+    "eslint-plugin-import": "^2.19.1",
+    "jest": "^24.9.0"
+  }
+}
